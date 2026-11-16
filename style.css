@@ -1,0 +1,30 @@
+body {
+font-family: Arial;
+background-color: #cbd2d8;
+text-align: center;
+}
+
+h1 {
+color: #17365d;
+}
+
+p, div {
+background-color: white;
+padding: 10px;
+margin: 10px;
+}
+
+button {
+background-color: #17365d;
+color: white;
+padding: 10px;
+border: none;
+}
+
+h3 {
+color: #13809c;
+}
+
+a {
+color: #17365d;
+}
