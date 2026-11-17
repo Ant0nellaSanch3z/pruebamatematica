@@ -2,13 +2,14 @@ body {
 font-family: Arial;
 background-color: #eaf1f8;
 text-align: center;
+color: #17365d;
 }
 
 h1 {
 color: #17365d;
 }
 
-p, div {
+p {
 background-color: white;
 padding: 10px;
 margin: 10px;
@@ -17,8 +18,26 @@ margin: 10px;
 button {
 background-color: #17365d;
 color: white;
-padding: 10px;
+padding: 10px 20px;
 border: none;
+cursor: pointer;
+}
+
+.menu {
+background-color: white;
+border: 1px solid #b5c7d9;
+margin: 15px;
+padding: 10px;
+display: none;
+}
+
+#resultado {
+background-color: white;
+padding: 20px;
+margin: 15px;
+text-align: left;
+white-space: pre-line;
+line-height: 2;
 }
 
 h3 {
@@ -28,4 +47,3 @@ color: #1595b5;
 a {
 color: #17365d;
 }
-
