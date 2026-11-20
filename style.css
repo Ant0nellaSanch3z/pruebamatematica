@@ -6,7 +6,7 @@ color: #17365d;
 }
 
 h1 {
-color: #17365d;
+color: #1f4370;
 }
 
 p {
@@ -19,8 +19,6 @@ button {
 background-color: #17365d;
 color: white;
 padding: 10px 20px;
-border: none;
-cursor: pointer;
 }
 
 .menu {
@@ -36,8 +34,6 @@ background-color: white;
 padding: 20px;
 margin: 15px;
 text-align: left;
-white-space: pre-line;
-line-height: 2;
 }
 
 h3 {
@@ -46,4 +42,9 @@ color: #1595b5;
 
 a {
 color: #17365d;
+}
+#geogebra {
+  width: 800px;
+  height: 450px;
+  margin: 20px auto;
 }
