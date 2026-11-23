@@ -1,50 +1,86 @@
+/* Estilo general */
 body {
-font-family: Arial;
-background-color: #eaf1f8;
-text-align: center;
-color: #17365d;
+  font-family: Arial;
+  background: linear-gradient(135deg, #fff0f4, #f8dce7);
+  text-align: center;
+  color: #805d69;
+  margin: 0;
 }
 
+/* Títulos */
 h1 {
-color: #1f4370;
-}
-
-p {
-background-color: white;
-padding: 10px;
-margin: 10px;
-}
-
-button {
-background-color: #17365d;
-color: white;
-padding: 10px 20px;
-}
-
-.menu {
-background-color: white;
-border: 1px solid #b5c7d9;
-margin: 15px;
-padding: 10px;
-display: none;
-}
-
-#resultado {
-background-color: white;
-padding: 20px;
-margin: 15px;
-text-align: left;
+  color: #c46b82;
 }
 
 h3 {
-color: #1595b5;
+  color: #d8899d;
 }
 
-a {
-color: #17365d;
+/* Barras cortas y anchas */
+p {
+  width: 70%;
+  max-width: 700px;
+  min-height: 20px;
+  margin: 8px auto;
+  padding: 8px 20px;
+  background-color: #fff8fa;
+  border: 2px solid #eab6c5;
+  border-radius: 12px;
 }
+
+/* Botón */
+button {
+  background-color: #efb1c1;
+  color: #704b58;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+/* Paneles */
+.menu {
+  display: none;
+  width: 70%;
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 8px 20px;
+  background-color: #fdeaf0;
+  border: 2px solid #e8bdc9;
+  border-radius: 12px;
+}
+
+/* Resultado */
+#resultado {
+  width: 70%;
+  max-width: 700px;
+  min-height: 35px;
+  margin: 10px auto;
+  padding: 12px 20px;
+  background-color: #fff5f7;
+  border: 2px solid #ddaabe;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* Enlace */
+a {
+  color: #bd7187;
+  font-weight: bold;
+}
+
+/* Gráfico */
 #geogebra {
   width: 800px;
   height: 450px;
   margin: 20px auto;
+}
+
+/* Pie de página */
+footer {
+  background-color: #eabcca;
+  color: #704b58;
+  padding: 15px;
+  margin-top: 20px;
 }

@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Clasificador de Funciones</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://geogebra.org/apps/deployggb.js"></script>
+    <!-- Título de la página -->
+    <title>Clasificador de Funciones</title>
+
+    <!-- Conecta con el CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Carga GeoGebra -->
+    <script src="https://geogebra.org/apps/deployggb.js"></script>
 </head>
+
+<!-- Contenido visible -->
 <body>
 
+<!-- Título principal -->
 <h1>Clasificador de Funciones</h1>
 
+<!-- Valores de b y c -->
 <p>b = <span id="valorB">0</span></p>
 <p>c = <span id="valorC">0</span></p>
 
+<!-- Botón para generar la función -->
 <button id="generar">Generar / Cambiar</button>
+
+<!-- Resultado de la clasificación -->
 <div id="resultado">
     Presiona para generar una función.
 </div>
 
+<!-- Información de función constante -->
 <div id="constante" class="menu">
 <h3>Función Constante</h3>
 <p id="textoConstante"></p>
 </div>
 
+<!-- Información de función lineal -->
 <div id="lineal" class="menu">
 <h3>Función Lineal</h3>
 <p id="textoLineal"></p>
 </div>
 
+<!-- Información de función afín -->
 <div id="afin" class="menu">
 <h3>Función Afín</h3>
 <p id="textoAfin"></p>
 </div>
 
+<!-- Caso donde no existe función -->
 <div id="noExiste" class="menu">
 <h3>No existe función</h3>
 <p>b = 0 y c = 0.</p>
 </div>
 
-<a href="https://www.geogebra.org/classic" >
+<!-- Enlace a GeoGebra -->
+<a href="https://www.geogebra.org/classic">
 Abrir GeoGebra
 </a>
+
+<!-- graficos de geogebra -->
 <h2>Grafica en GeoGebra</h2>
 <div id="geogebra"></div>
 
+<!-- Conecta con el JavaScript -->
 <script src="script.js"></script>
+
+<!-- Pie de página -->
+<footer>
+    Clasificador de Funciones © 2026
+</footer>
 
 </body>
 </html>
